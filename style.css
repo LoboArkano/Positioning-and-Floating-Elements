@@ -7,6 +7,14 @@ body {
   color: #326891;
 }
 
+.gray {
+  color: #666666;
+}
+
+.gray-light {
+  color: #888888;
+}
+
 .paragraph-title {
   font-size: 20px;
   font-weight: bold;
@@ -100,12 +108,10 @@ header #header_image img {
 
 #img_desc p {
   font-size: 15px;
-  color: #666666;
 }
 
 #img_desc span {
   font-size: 13px;
-  color: #888888;
 }
 
 /* HEADER */
@@ -208,3 +214,57 @@ hr {
   margin: 0 45%;
 }
 /*susbcribe to NY Times*/
+
+/* Article */
+#article-container{
+  height: 400px;
+  width: 945px;
+  margin: 45px auto;
+}
+
+article .paragraph-title {
+  font-size: 20px;
+}
+
+article .desc-article {
+  font-size: 14px;
+}
+
+.grid-container{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 320px);
+  grid-gap: 15px;
+  width: 945px;
+}
+
+.grid-container div {
+  justify-self: center;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 17px;
+}
+
+.grid-container div img {
+  width: 230px;
+  height: 120px;
+}
+
+.grid-container div p span{
+  font-size: 11px;
+  font-weight: bolder;
+}
+
+.grid-container div p {
+  font-size: 14px;
+}
+
+article hr {
+  margin-right: 95%;
+}
+
+#article-author {
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Article */
