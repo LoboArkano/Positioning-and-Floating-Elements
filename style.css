@@ -1,0 +1,57 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+nav {
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  padding: 1% 2%;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #e2e2e2;
+}
+
+nav .left-icons {
+  width: 16px;
+  height: 16px;
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  font-size: 14.25px;
+  font-weight: bold;
+}
+
+nav .logo {
+  filter: invert(100%);
+  width: 200px;
+}
+nav .right-side {
+  display: flex;
+  align-items: center;
+}
+
+nav .right-side .sub-button {
+  background-color: #567b95;
+  padding: 4%;
+  color: white;
+  font-size: 11px;
+  width: 125px;
+  border-radius: 3px;
+}
+
+nav .right-side .account-button {
+  display: flex;
+  align-items: center;
+  font-weight: 300;
+  font-size: 12px;
+  margin-left: 10%;
+}
+
+nav .right-side .account-button img {
+  width: 20px;
+  height: 20px;
+}
