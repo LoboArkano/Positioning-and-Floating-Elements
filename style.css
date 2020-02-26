@@ -118,26 +118,26 @@ header #header_image img {
 
 /* Section */
 
-#news {
+.news {
   margin: 0 auto;
   width: 600px;
   position: relative;
 }
 
-#news #author {
+.news #author {
   font-size: 15;
   font-weight: bolder;
 }
 
-#news #author span {
+.news #author span {
   text-decoration: underline;
 }
 
-#news #date {
+.news #date {
   font-size: 13px;
 }
 
-#news #info_container {
+.news #info_container {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -146,16 +146,16 @@ header #header_image img {
   margin-bottom: 25px;
 }
 
-#news .social_icons {
+.news .social_icons {
   width: 40px;
   height: 36px;
 }
-#news .social_icons_2 {
+.news .social_icons_2 {
   width: 50px;
   height: 36px;
 }
 
-#news #new_text {
+.news #new_text {
   font-size: 20px;
   line-height: 1.875rem;
 }
@@ -217,9 +217,9 @@ hr {
 
 /* Article */
 #article-container{
-  height: 400px;
+  height: 850px;
   width: 945px;
-  margin: 45px auto;
+  margin: 45px -30%;
 }
 
 article .paragraph-title {
