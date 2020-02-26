@@ -3,6 +3,14 @@ body {
   margin: 0;
 }
 
+.blue {
+  color: #326891;
+}
+
+.paragraph-title {
+  font-size: 20px;
+  font-weight: bold;
+}
 /* Navbar */
 
 nav {
@@ -65,7 +73,7 @@ nav .right-side .account-button img {
 header {
   display: grid;
   grid-template-columns: 1fr 945px 1fr;
-  grid-template-rows: 96px 660px
+  grid-template-rows: 96px 660px;
 }
 
 header #title {
@@ -90,12 +98,12 @@ header #header_image img {
   height: 531px;
 }
 
-#img_desc p{
+#img_desc p {
   font-size: 15px;
   color: #666666;
 }
 
-#img_desc span{
+#img_desc span {
   font-size: 13px;
   color: #888888;
 }
@@ -107,12 +115,13 @@ header #header_image img {
 #news {
   margin: 0 auto;
   width: 600px;
+  position: relative;
 }
 
 #news #author {
-font-size: 15;
-font-weight: bolder;
-} 
+  font-size: 15;
+  font-weight: bolder;
+}
 
 #news #author span {
   text-decoration: underline;
@@ -120,7 +129,6 @@ font-weight: bolder;
 
 #news #date {
   font-size: 13px;
-
 }
 
 #news #info_container {
@@ -142,7 +150,61 @@ font-weight: bolder;
 }
 
 #news #new_text {
-  font-size: 18px;
+  font-size: 20px;
   line-height: 1.875rem;
 }
+
 /* Section */
+
+/*editors pick- aside*/
+aside .editors-pick {
+  width: 40%;
+  /* padding: 5%; */
+  position: absolute;
+  right: -45%;
+  top: 999px;
+}
+
+.editors-pick {
+  font-size: 14px;
+}
+.editors-pick .editors-pick-items {
+  display: flex;
+  align-items: center;
+}
+
+.editors-pick .editors-pick-items img {
+  width: 75px;
+  height: 75px;
+}
+.editors-pick .title-ed-pick {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+.editors-pick .editors-pick-items p {
+  margin: 13px 0 13px 13px;
+}
+hr {
+  color: #e2e2e2;
+}
+/*editors pick- aside*/
+
+/*susbcribe to NY Times*/
+.subscribe-to {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+}
+.subscribe-to p {
+  margin: 0;
+  line-height: 1.3rem;
+  text-align: center;
+}
+.subscribe-to .inside {
+  margin: 20px 0;
+}
+.subscribe-to hr {
+  margin: 0 45%;
+}
+/*susbcribe to NY Times*/
