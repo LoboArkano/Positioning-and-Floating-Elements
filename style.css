@@ -1,3 +1,4 @@
+/*globals variables*/
 body {
   padding: 0;
   margin: 0;
@@ -19,6 +20,16 @@ body {
   font-size: 20px;
   font-weight: bold;
 }
+
+.fig-caption-desc p {
+  margin: 0;
+  line-height: 1.1rem;
+}
+.margin-sections {
+  margin: 8% 0;
+}
+/*globals variables*/
+
 /* Navbar */
 
 nav {
@@ -106,11 +117,11 @@ header #header_image img {
   height: 531px;
 }
 
-#img_desc p {
+.fig-caption-desc p {
   font-size: 15px;
 }
 
-#img_desc span {
+.fig-caption-desc span {
   font-size: 13px;
 }
 
@@ -205,18 +216,23 @@ hr {
 .subscribe-to p {
   margin: 0;
   line-height: 1.3rem;
-  text-align: center;
 }
 .subscribe-to .inside {
+  text-align: center;
   margin: 20px 0;
 }
+
+.subscribe-to .inside a {
+  text-decoration: none;
+}
+
 .subscribe-to hr {
   margin: 0 45%;
 }
 /*susbcribe to NY Times*/
 
 /* Article */
-#article-container{
+#article-container {
   height: 850px;
   width: 945px;
   margin: 45px -30%;
@@ -230,7 +246,7 @@ article .desc-article {
   font-size: 14px;
 }
 
-.grid-container{
+.grid-container {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(2, 320px);
@@ -249,7 +265,7 @@ article .desc-article {
   height: 120px;
 }
 
-.grid-container div p span{
+.grid-container div p span {
   font-size: 11px;
   font-weight: bolder;
 }
@@ -268,3 +284,18 @@ article hr {
 }
 
 /* Article */
+
+/*video section*/
+
+.video-section iframe {
+  border: 0;
+}
+
+/* video section*/
+
+/*image-section*/
+.image-section img {
+  width: 600px;
+  height: 400px;
+}
+/*image-section*/
