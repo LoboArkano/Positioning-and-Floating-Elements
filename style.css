@@ -6,6 +6,11 @@ body {
 
 }
 
+ul {
+  margin: 0px;
+  padding: 0px;
+}
+
 .blue {
   color: #326891;
 }
@@ -418,3 +423,63 @@ article hr {
 }
 
 /* Pre-Footer */
+
+/* Foooter */
+
+.footer-main-container {
+  display: grid;
+  grid-template-rows: 25px 40px 600px;
+  grid-template-columns: repeat(6, 1fr);
+  background-color: yellow;
+  width: 1260px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer-main-container #span-line-footer {
+  grid-column: span 6;
+}
+
+.footer-main-container .small-logo{
+  grid-column: span 5;
+  filter: invert(100%);
+  width: 190px;
+  height: 35px;
+}
+
+.footer-main-container .home {
+  grid-column: 6 / 7;
+  grid-row: 2 / 3;
+}
+
+.footer-main-container .list li {
+  list-style-type: none;
+}
+
+.footer-main-container .list li a{
+  font-size: 14px;
+  color: black;
+  text-decoration: none;
+}
+
+.footer-main-container .index {
+  font-weight: bolder;
+  font-size: 13px;
+  color: #333333;
+}
+
+.footer-main-container .list div li a {
+  font-size: 16px;
+  color: black;
+  font-weight: bold;
+}
+
+.footer-main-container .list div li {
+  margin-bottom: 10px;
+}
+
+.footer-main-container .footer-icon {
+  height: 13px;
+  width: 13px;
+  margin-right: 6px;
+}
+/* Foooter */
