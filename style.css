@@ -330,3 +330,41 @@ article hr {
 }
 
 /* Comments */
+
+/* Pre-Footer */
+
+.pre-footer-main-container {
+  display: grid;
+  grid-template-columns: 960px 320px;
+  grid-template-rows: 800px;
+  width: 1260px;
+  margin: 30px auto;
+}
+
+.pre-footer-left-container {
+  display: grid;
+  grid-template-columns: repeat(3, 275px);
+  grid-template-rows: 25px 20px repeat(3, 320px);
+  grid-gap: 14px;
+  background-color: teal;
+}
+.pre-footer-left-container div:first-child {
+  grid-column: span 3;
+}
+.pre-footer-left-container .title-left-container {
+  grid-column: span 3;
+}
+
+.pre-footer-left-container div img {
+  height: 181px;
+  width: 272px;
+}
+
+.pre-footer-right-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 20px repeat(10, 1fr);
+  background-color: rgb(0, 128, 0);
+}
+
+/* Pre-Footer */
