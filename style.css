@@ -46,6 +46,15 @@ ul {
 /* Navbar */
 
 nav {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100%;
+  background-color: white;
+  z-index: 100;
+}
+
+.navbar {
   font-family: Arial, Helvetica, sans-serif;
   display: flex;
   padding: 0 2%;
@@ -53,6 +62,10 @@ nav {
   align-items: center;
   justify-content: space-between;
   border-bottom: 1px solid #e2e2e2;
+}
+
+main {
+  margin-top: 60px;
 }
 
 nav .left-icons {
@@ -88,6 +101,19 @@ nav .right-side .sub-button {
   border-radius: 3px;
   font-weight: bolder;
   border: 1px solid #326891;
+}
+
+nav .right-side .login-button {
+  background-color: #567b95;
+  padding: 3%;
+  color: white;
+  font-size: 11px;
+  height: 32px;
+  width: 75px;
+  border-radius: 3px;
+  font-weight: bolder;
+  border: 1px solid #326891;
+  margin-left: 10px;
 }
 
 nav .right-side .account-button {
@@ -567,6 +593,49 @@ article hr {
 
 .copyright li {
   margin: 10px;
+}
+
+.main-fixed-footer {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  z-index: 100;
+}
+
+.fixed-footer {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #333;
+  color: white;
+  padding: 20px;
+}
+
+.fixed-footer .fixed-footer-text {
+  text-decoration: none;
+  color: white;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.fixed-footer .fixed-footer-text #ends {
+  font-weight: normal;
+}
+
+.fixed-footer .fixed-footer-offer {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  font-size: 12px;
+  margin-left: 300px;
+}
+
+.fixed-footer .fixed-footer-offer #icon-footer-offer {
+  width: 15px;
+  height: 15px;
+  margin: 0 40px 0 25px;
 }
 
 /* Foooter */
