@@ -46,7 +46,7 @@ ul {
 nav {
   font-family: Arial, Helvetica, sans-serif;
   display: flex;
-  padding: 1% 2%;
+  padding: 5px 2%;
   align-items: center;
   justify-content: space-between;
   border-bottom: 1px solid #e2e2e2;
@@ -76,11 +76,14 @@ nav .right-side {
 
 nav .right-side .sub-button {
   background-color: #567b95;
-  padding: 4%;
+  padding: 3%;
   color: white;
   font-size: 11px;
-  width: 125px;
+  height: 32px;
+  width: 140px;
   border-radius: 3px;
+  font-weight: bolder;
+  border: 1px solid #326891;
 }
 
 nav .right-side .account-button {
@@ -89,6 +92,8 @@ nav .right-side .account-button {
   font-weight: 300;
   font-size: 12px;
   margin-left: 10%;
+  background-color: white;
+  border: none;
 }
 
 nav .right-side .account-button img {
@@ -223,6 +228,11 @@ aside .editors-pick {
   margin: 13px 0 13px 13px;
 }
 
+.editors-pick .editors-pick-items p a {
+  color: black;
+  text-decoration: none;
+}
+
 /*editors pick- aside*/
 
 /*susbcribe to NY Times*/
@@ -333,6 +343,7 @@ article hr {
   width: 330px;
   padding: 12px 0;
   font-size: 13px;
+  border: 1px solid #326891;
 }
 
 .read-comments-section img {
@@ -397,11 +408,16 @@ article hr {
   text-align: right;
 }
 
-.pre-footer-main-container .news-title {
+.pre-footer-main-container .news-title{
+  padding: 5px 0;
+}
+
+.pre-footer-main-container .news-title a {
   font-family: "Lora", Arial, Helvetica, sans-serif;
   color: black;
   font-size: 18px;
   margin: 7px 0;
+  text-decoration: none;
 }
 
 .pre-footer-main-container .news-date {
@@ -419,10 +435,11 @@ article hr {
   margin: 0 0 12px;
 }
 
-.pre-footer-right-container .content-most-popular p {
+.pre-footer-right-container .content-most-popular p a {
   font-family: "Lora", Arial, Helvetica, sans-serif;
   font-size: 18px;
   color: #121212;
+  text-decoration: none;
 }
 
 /* Pre-Footer */
@@ -521,6 +538,7 @@ article hr {
   display: flex;
   flex-direction: row;
   list-style-type: none;
+  justify-content: center;
 }
 .copyright li {
   margin: 10px;
