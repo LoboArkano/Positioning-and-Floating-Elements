@@ -381,7 +381,11 @@ article hr {
   grid-gap: 10px;
 }
 
-.pre-footer-left-container div img {
+.pre-footer-left-container figure {
+  margin: 0;
+}
+
+.pre-footer-left-container figure img {
   height: 180px;
   width: 272px;
 }
@@ -498,21 +502,21 @@ article hr {
   color: #333333;
 }
 
-.footer-main-container .list .subscribe-top li a {
+.footer-main-container .list.subscribe-top li a {
   font-size: 14px;
   color: black;
   font-weight: bold;
 }
-.footer-main-container .list .subscribe-bottom li a {
+.footer-main-container .list.subscribe-bottom li a {
   font-size: 11px;
   color: black;
 }
 
-.footer-main-container .list .subscribe-bottom li {
+.footer-main-container .list.subscribe-bottom li {
   margin: 0;
 }
 
-.footer-main-container .list div li {
+.footer-main-container .subscribe-grid li {
   margin-bottom: 10px;
 }
 
