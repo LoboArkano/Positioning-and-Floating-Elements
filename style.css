@@ -203,9 +203,9 @@ header #header_image #main-image {
 /* editors pick- aside */
 
 .editors-pick {
-  width: 40%;
+  width: 230px;
   position: absolute;
-  right: -45%;
+  right: -50%;
   top: 999px;
   font-size: 14px;
 }
