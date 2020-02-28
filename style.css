@@ -1,4 +1,4 @@
-/*globals variables*/
+/* globals variables */
 body {
   padding: 0;
   margin: 0;
@@ -6,8 +6,8 @@ body {
 }
 
 ul {
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
 }
 
 .blue {
@@ -15,11 +15,11 @@ ul {
 }
 
 .gray {
-  color: #666666;
+  color: #666;
 }
 
 .gray-light {
-  color: #888888;
+  color: #888;
 }
 
 .paragraph-title {
@@ -39,7 +39,8 @@ ul {
 .line-footer {
   border: 0.7px solid #e2e2e2;
 }
-/*globals variables*/
+
+/* globals variables */
 
 /* Navbar */
 
@@ -69,6 +70,7 @@ nav .logo {
   filter: invert(100%);
   width: 200px;
 }
+
 nav .right-side {
   display: flex;
   align-items: center;
@@ -177,6 +179,7 @@ header #header_image img {
   width: 40px;
   height: 36px;
 }
+
 .news .social_icons_2 {
   width: 50px;
   height: 36px;
@@ -186,6 +189,7 @@ header #header_image img {
   font-size: 20px;
   line-height: 1.875rem;
 }
+
 .footer-section {
   font-size: 12px;
   line-height: 1rem;
@@ -199,9 +203,9 @@ header #header_image img {
 /* Section */
 
 /*editors pick- aside*/
+
 aside .editors-pick {
   width: 40%;
-  /* padding: 5%; */
   position: absolute;
   right: -45%;
   top: 999px;
@@ -210,6 +214,7 @@ aside .editors-pick {
 .editors-pick {
   font-size: 14px;
 }
+
 .editors-pick .editors-pick-items {
   display: flex;
   align-items: center;
@@ -219,6 +224,7 @@ aside .editors-pick {
   width: 75px;
   height: 75px;
 }
+
 .editors-pick .title-ed-pick {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
@@ -233,18 +239,21 @@ aside .editors-pick {
   text-decoration: none;
 }
 
-/*editors pick- aside*/
+/* editors pick- aside */
 
-/*susbcribe to NY Times*/
+/* susbcribe to NY Times */
+
 .subscribe-to {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
   font-size: 15px;
 }
+
 .subscribe-to p {
   margin: 0;
   line-height: 1.3rem;
 }
+
 .subscribe-to .inside {
   text-align: center;
   margin: 20px 0;
@@ -257,9 +266,11 @@ aside .editors-pick {
 .subscribe-to hr {
   margin: 0 45%;
 }
-/*susbcribe to NY Times*/
+
+/* susbcribe to NY Times */
 
 /* Article */
+
 #article-container {
   height: 850px;
   width: 945px;
@@ -321,12 +332,14 @@ article hr {
 
 /* video section*/
 
-/*image-section*/
+/* image-section */
+
 .image-section img {
   width: 600px;
   height: 400px;
 }
-/*image-section*/
+
+/* image-section */
 
 /* Comments */
 
@@ -353,6 +366,7 @@ article hr {
 /* Comments */
 
 /* Pre-Footer */
+
 .title-span-rows {
   grid-column: span 3;
 }
@@ -360,16 +374,16 @@ article hr {
 .title-span-rows hr {
   border: 0.7px solid black;
 }
+
 .pre-footer-main-container {
   display: grid;
   grid-template-columns: 840px 320px;
-  /* grid-template-rows: 1100px; */
-  /* height: 800px; */
   width: 1260px;
   clear: both;
   margin: 10% 3% 0;
   column-gap: 30px;
 }
+
 .pre-footer-main-container p {
   margin: 0;
 }
@@ -407,12 +421,12 @@ article hr {
 }
 
 .pre-footer-main-container figcaption {
-  color: #999999;
+  color: #999;
   font-size: 10px;
   text-align: right;
 }
 
-.pre-footer-main-container .news-title{
+.pre-footer-main-container .news-title {
   padding: 5px 0;
 }
 
@@ -426,14 +440,16 @@ article hr {
 
 .pre-footer-main-container .news-date {
   font-family: Arial, Helvetica, sans-serif;
-  color: #999999;
+  color: #999;
   font-size: 12px;
 }
 
 /* right side- same prefooter */
+
 .pre-footer-right-container div hr {
   border: 0.7px solid black;
 }
+
 .pre-footer-right-container .content-most-popular hr {
   border: 0.8px solid #e2e2e2;
   margin: 0 0 12px;
@@ -466,6 +482,7 @@ article hr {
   border: 2px solid #e2e2e2;
   margin: 0 0 1px;
 }
+
 .footer-main-container #second-line {
   border: 1px solid #e2e2e2;
   margin: 0;
@@ -499,7 +516,7 @@ article hr {
 .footer-main-container .index {
   font-weight: bolder;
   font-size: 13px;
-  color: #333333;
+  color: #333;
 }
 
 .footer-main-container .list.subscribe-top li a {
@@ -507,6 +524,7 @@ article hr {
   color: black;
   font-weight: bold;
 }
+
 .footer-main-container .list.subscribe-bottom li a {
   font-size: 11px;
   color: black;
@@ -525,12 +543,13 @@ article hr {
   width: 13px;
   margin-right: 6px;
 }
+
 .footer-main-container .subscribe-grid {
   border-left: 1px solid #e2e2e2;
   padding-left: 20px;
 }
 
-/*copyright*/
+/* copyright */
 
 .copyright {
   font-family: Arial, Helvetica, sans-serif;
@@ -544,12 +563,13 @@ article hr {
   list-style-type: none;
   justify-content: center;
 }
+
 .copyright li {
   margin: 10px;
 }
 
 .copyright li a {
-  color: #666666;
+  color: #666;
   text-decoration: none;
 }
 
