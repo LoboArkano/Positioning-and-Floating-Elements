@@ -103,6 +103,10 @@ nav .right-side .sub-button {
   border: 1px solid #326891;
 }
 
+nav .right-side .sub-button:hover {
+  background-color: #326891;
+}
+
 nav .right-side .login-button {
   background-color: #567b95;
   padding: 3%;
@@ -114,6 +118,10 @@ nav .right-side .login-button {
   font-weight: bolder;
   border: 1px solid #326891;
   margin-left: 10px;
+}
+
+nav .right-side .login-button:hover {
+  background-color: #326891;
 }
 
 nav .right-side .account-button {
@@ -178,12 +186,16 @@ header #header_image #main-image {
 }
 
 .news #author {
-  font-size: 15;
+  font-size: 15px;
   font-weight: bolder;
 }
 
 .news #author #underline {
-  text-decoration: underline;
+  text-decoration: underline rgb(177, 175, 175);
+}
+
+.news #author #underline:hover {
+  text-decoration: none;
 }
 
 .news #date {
@@ -224,6 +236,10 @@ header #header_image #main-image {
   color: black;
 }
 
+.news .new-link:hover {
+  text-decoration: none;
+}
+
 /* Section */
 
 /* editors pick- aside */
@@ -260,6 +276,10 @@ header #header_image #main-image {
   text-decoration: none;
 }
 
+.editors-pick .editors-pick-items .editors-desc .edit-link:hover {
+  text-decoration: underline black;
+}
+
 /* editors pick- aside */
 
 /* susbcribe to NY Times */
@@ -286,6 +306,7 @@ header #header_image #main-image {
 
 .subscribe-to .bar-sub {
   margin: 0 45%;
+  border: 1px solid rgb(204, 204, 204);
 }
 
 /* susbcribe to NY Times */
@@ -296,10 +317,12 @@ header #header_image #main-image {
   height: 850px;
   width: 945px;
   margin: 45px -30%;
+  line-height: 1.125rem;
 }
 
 article .paragraph-title {
-  font-size: 20px;
+  font-size: 18px;
+  line-height: 0.95rem;
 }
 
 article .desc-article {
@@ -379,6 +402,10 @@ article hr {
   border: 1px solid #326891;
 }
 
+.read-comments-section .comments-b:hover {
+  background-color: #326891;
+}
+
 .read-comments-section img {
   float: right;
 }
@@ -397,11 +424,11 @@ article hr {
 
 .pre-footer-main-container {
   display: grid;
-  grid-template-columns: 840px 320px;
-  width: 1260px;
+  grid-template-columns: 852px 315px;
+  width: 1195px;
   clear: both;
-  margin: 10% 3% 0;
-  column-gap: 30px;
+  margin: 10% auto 0;
+  column-gap: 22px;
 }
 
 .pre-footer-main-container p {
@@ -412,7 +439,7 @@ article hr {
   display: grid;
   grid-template-columns: repeat(3, 272px);
   grid-template-rows: 25px 20px repeat(2, 320px) 25px 20px repeat(1, 320px);
-  grid-gap: 10px;
+  grid-gap: 14px;
 }
 
 .pre-footer-left-container figure {
@@ -458,6 +485,10 @@ article hr {
   text-decoration: none;
 }
 
+.pre-footer-main-container .news-title .news-link:hover {
+  color: rgb(102, 102, 102);
+}
+
 .pre-footer-main-container .news-date {
   font-family: Arial, Helvetica, sans-serif;
   color: #999;
@@ -482,16 +513,22 @@ article hr {
   text-decoration: none;
 }
 
+.pre-footer-right-container .content-most-popular p .popular-link:hover {
+  color: rgb(102, 102, 102);
+}
+
 /* Pre-Footer */
 
 /* Foooter */
 
 .footer-main-container {
   display: grid;
-  grid-template-rows: 25px 40px 300px;
-  grid-template-columns: repeat(5, 1fr) 210px;
+  grid-template-rows: 25px 40px 342px;
+  grid-template-columns: repeat(5, 197px) 213px;
   font-family: Arial, Helvetica, sans-serif;
-  margin: 0 3% 1%;
+  width: 1198px;
+  margin: 0 auto 1%;
+  text-transform: capitalize;
 }
 
 .footer-main-container #span-line-footer {
@@ -523,6 +560,22 @@ article hr {
   text-align: right;
 }
 
+.footer-main-container .column {
+  line-height: 1.4rem;
+}
+
+.footer-main-container .index {
+  font-weight: bolder;
+  font-size: 13px;
+  color: #333;
+  list-style-type: none;
+}
+
+.footer-main-container .index p {
+  line-height: 0;
+  margin-bottom: 15px;
+}
+
 .footer-main-container .list .index-items {
   list-style-type: none;
 }
@@ -533,16 +586,13 @@ article hr {
 }
 
 .footer-main-container .list .index-items a {
-  font-size: 14px;
+  font-size: 12px;
   color: black;
   text-decoration: none;
 }
 
-.footer-main-container .index {
-  font-weight: bolder;
-  font-size: 13px;
-  color: #333;
-  list-style-type: none;
+.footer-main-container .list .index-items a:hover {
+  text-decoration: underline black;
 }
 
 .footer-main-container .list.subscribe-top .contact a {
@@ -581,7 +631,8 @@ article hr {
 .copyright {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 11px;
-  margin: 0 3% 5%;
+  margin: 0 auto 5.7%;
+  width: 1198px;
 }
 
 .copyright ul {
@@ -593,6 +644,10 @@ article hr {
 
 .copyright li {
   margin: 10px;
+}
+
+.copyright li:hover {
+  text-decoration: underline;
 }
 
 .main-fixed-footer {
